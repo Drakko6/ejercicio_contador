@@ -4,9 +4,9 @@ import { Container, Counters } from "./Styles";
 
 function App() {
   //  states
-  const [seconds, setSeconds] = useState(59);
-  const [minutes, setMinutes] = useState(59);
-  const [hours, setHours] = useState(23);
+  const [seconds, setSeconds] = useState(0);
+  const [minutes, setMinutes] = useState(0);
+  const [hours, setHours] = useState(0);
   const [days, setDays] = useState(2);
   const counters = ["Days", "Hours", "Minutes", "Seconds"];
 
